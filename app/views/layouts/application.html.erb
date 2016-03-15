@@ -33,8 +33,11 @@
       </ul>
     </div>
   </nav>
-
- <%= yield %>
+<div class="row">
+    <div class="col m10 offset-m1">
+        <%= yield %>
+    </div>
+</div>
 
 <script>
     $(".button-collapse").sideNav();
